@@ -1,2 +1,2 @@
 # Rhino-Game-Project
-C# Scripts used in my Rhino Unity3D game
+C# scripts for Rhino - A top down 2D shooter created in Unity3D
