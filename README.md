@@ -1,2 +1,2 @@
 # Rhino-Game-Project
-Contains all the C# scripts in my Unity 3D game
+C# Scripts used in my Rhino Unity3D game
