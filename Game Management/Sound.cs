@@ -1,0 +1,27 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.Audio;
+
+[System.Serializable]
+public class Sound
+{
+    public string name;
+
+    public AudioClip clip;
+
+    [Range(0f, 1f)]
+    public float volume;
+    [Range(0.1f, 3f)]
+    public float pitch;
+    public bool addRandomPitch;
+    public float randomPitchAdjustor;
+
+    public bool loop;
+
+    [HideInInspector]
+    public AudioSource source;
+
+    [Tooltip("If true then these sounds still work even if game is paused (mostly just for menu sounds)")]
+    public bool ignorePause;
+}
